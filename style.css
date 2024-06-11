@@ -1,0 +1,66 @@
+
+
+footer {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+/* tirar a linha vermelha de cima */
+[data-testid="stDecoration"] {
+    /* visibility: hidden; */
+    background: #000000;
+}
+
+/* ESCONDER HEADER */
+/* header{
+    visibility: hidden;
+} */
+
+/* #DIV CLASS. EXEMPLO: class="block-container css-k1ih3n egzxvld4" */
+/* MUDAR A COR DE FUNDO */
+/* .css-k1ih3n {
+    background-color: #D3D3D3;
+} */
+
+/*
+
+[data-testid="stSidebarNav"] {
+    background-image: url(http://placekitten.com/200/200);
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    /* background-position: 20px 20px; */
+/*    background-position: 50% 15%;
+}
+[data-testid="stSidebarNav"]::before {
+    content: "MENU";
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    position:relative;
+    top: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+/*}
+
+
+
+/* tirar botao de fechar do menu  */
+/* [data-testid="baseButton-header"] {
+    visibility: hidden;
+} */
+
+
+/* tirar botao deploy de cima */
+[data-testid="stToolbar"] {
+    visibility: hidden;
+}
+
+
+
+[data-testid="collapsedControl"] {
+    display: none
+}
